@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.first-card {
+  width: 90%;
+  height: 85%;
+  background-color: #d2e9e9;
+
+  padding: 0.6em;
+  border-radius: 0.4em;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.first-card h3 {
+  font-size: 30px;
+  color: rgb(51, 50, 50);
+  margin-top: 1em;
+}
+
+.first-card .card-header span {
+  font-size: 12px;
+  font-style: italic;
+  color: rgba(51, 51, 51, 0.89);
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.permission-table {
+  margin: 1.8em;
+
+  /* background-color: aqua; */
+}
+.permission-table table {
+  width: 100%;
+  padding: 1 em;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+.permission-table th {
+  padding-bottom: 0.8em;
+  color: #4e4e4e;
+  border-bottom: 3px solid rgba(179, 179, 179, 0.774);
+}
+
+.permission-table td {
+  padding-bottom: 0.35em;
+  padding-top: 0.35em;
+}
+
+.left-align {
+  text-align: left;
+  color: #4e4e4e;
+  font-weight: bold;
+  /* font-family: "Roboto Mono", monospace; */
+}
+
+.result {
+  /* background-color: #82aae3; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+/* .result p {
+  padding-top: 0.6em;
+} */
+
+.result-octal-text,
+.result-symbolic-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #3b3b3b;
+  margin-top: 0.75em;
+}
+
+.result-octal-value,
+.result-symbolic-value {
+  font-family: "Roboto Mono", monospace;
+  color: #494949;
+}
