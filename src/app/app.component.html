@@ -121,11 +121,9 @@
 
         <div class="result" *ngIf="isResultVisible">
           <p class="result-octal-text">octal chmod command</p>
-          <p class="result-octal-value">dummy octal data {{ octalResult }}</p>
+          <p class="result-octal-value">{{ generatedOctalResult }}</p>
           <p class="result-symbolic-text">symbolic chmod command</p>
-          <p class="result-symbolic-value">
-            dummy symbolic data {{ symbolicResult }}
-          </p>
+          <p class="result-symbolic-value">{{ generatedSymbolicResult }}</p>
         </div>
       </div>
     </div>
